@@ -7,7 +7,7 @@
 
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:the_leet_code_begginers_guide_running_sum_of_1_d_array/main.dart';
+import 'package:running_sum_of_1_d_array/main.dart';
 
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {

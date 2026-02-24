@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.15)
-project(the_leet_code_begginers_guide_running_sum_of_1_d_array LANGUAGES CXX)
+project(running_sum_of_1_d_array LANGUAGES CXX)
 
-set(BINARY_NAME "the_leet_code_begginers_guide_running_sum_of_1_d_array")
+set(BINARY_NAME "running_sum_of_1_d_array")
 
 cmake_policy(SET CMP0063 NEW)
 

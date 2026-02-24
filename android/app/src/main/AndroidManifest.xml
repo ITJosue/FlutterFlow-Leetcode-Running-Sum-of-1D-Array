@@ -5,7 +5,7 @@
 
 
     <application
-        android:label="The LeetCode Begginers Guide Running Sum of 1D Array"
+        android:label="Running Sum of 1D Array"
         tools:replace="android:label"
         android:icon="@mipmap/ic_launcher"
         android:requestLegacyExternalStorage="true">
@@ -45,7 +45,7 @@
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
-                <data android:scheme="theleetcodebegginersguiderunningsumof1darray" android:host="theleetcodebegginersguiderunningsumof1darray.com" />
+                <data android:scheme="runningsumof1darray" android:host="runningsumof1darray.com" />
             </intent-filter>
 
         </activity>
@@ -55,6 +55,7 @@
         <meta-data
             android:name="flutterEmbedding"
             android:value="2" />
+
 
 
 

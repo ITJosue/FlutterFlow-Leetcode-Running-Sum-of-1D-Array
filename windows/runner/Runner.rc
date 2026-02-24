@@ -89,13 +89,13 @@ BEGIN
     BEGIN
         BLOCK "040904e4"
         BEGIN
-            VALUE "CompanyName", "The LeetCode Begginers Guide Running Sum of 1D Array" "\0"
+            VALUE "CompanyName", "Running Sum of 1D Array" "\0"
             VALUE "FileDescription", "A new Flutter project." "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "The LeetCode Begginers Guide Running Sum of 1D Array" "\0"
-            VALUE "LegalCopyright", "Copyright (C) 2024 The LeetCode Begginers Guide Running Sum of 1D Array. All rights reserved." "\0"
-            VALUE "OriginalFilename", "the_leet_code_begginers_guide_running_sum_of_1_d_array.exe" "\0"
-            VALUE "ProductName", "The LeetCode Begginers Guide Running Sum of 1D Array" "\0"
+            VALUE "InternalName", "Running Sum of 1D Array" "\0"
+            VALUE "LegalCopyright", "Copyright (C) 2025 Running Sum of 1D Array. All rights reserved." "\0"
+            VALUE "OriginalFilename", "running_sum_of_1_d_array.exe" "\0"
+            VALUE "ProductName", "Running Sum of 1D Array" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

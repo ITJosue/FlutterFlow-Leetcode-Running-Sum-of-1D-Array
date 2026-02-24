@@ -27,7 +27,7 @@ int APIENTRY wWinMain(_In_ HINSTANCE instance, _In_opt_ HINSTANCE prev,
   FlutterWindow window(project);
   Win32Window::Point origin(10, 10);
   Win32Window::Size size(1280, 720);
-  if (!window.CreateAndShow(L"the_leet_code_begginers_guide_running_sum_of_1_d_array", origin, size)) {
+  if (!window.CreateAndShow(L"running_sum_of_1_d_array", origin, size)) {
     return EXIT_FAILURE;
   }
   window.SetQuitOnClose(true);

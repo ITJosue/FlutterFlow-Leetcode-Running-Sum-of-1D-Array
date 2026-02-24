@@ -1,4 +1,4 @@
-# The LeetCode Begginers Guide Running Sum of 1D Array
+# Running Sum of 1D Array
 
 A new Flutter project.
 

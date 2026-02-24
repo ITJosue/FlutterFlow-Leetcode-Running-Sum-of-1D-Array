@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.10)
 project(runner LANGUAGES CXX)
 
-set(BINARY_NAME "The LeetCode Begginers Guide Running Sum of 1D Array")
+set(BINARY_NAME "Running Sum of 1D Array")
 set(APPLICATION_ID "com.SuperforecastingIT.theleetcodebegginersguiderunningsumof1darray")
 
 cmake_policy(SET CMP0063 NEW)

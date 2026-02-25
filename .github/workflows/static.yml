@@ -42,7 +42,7 @@ jobs:
 
       # 3. Build the Flutter web app with the correct base-href
       - name: Build Flutter web
-        run: flutter build web --base-href "/FlutterFlow-Leetcode-Running-Sum-of-1D-Array/"
+        run: flutter build web --base-href "/Running_Sum_of_1D_Array/"
 
       - name: Setup Pages
         uses: actions/configure-pages@v5

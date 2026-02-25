@@ -1,6 +1,5 @@
-# Simple workflow for deploying static content to GitHub Pages
+# Workflow for building and deploying a Flutter web app to GitHub Pages
 name: Deploy static content to Pages
-
 
 on:
   # Runs on pushes targeting the default branch
@@ -16,14 +15,12 @@ permissions:
   pages: write
   id-token: write
 
-# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
-# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+# Allow only one concurrent deployment
 concurrency:
   group: "pages"
-  cancel-in-progress: false
+  cancel-in-progress: True
 
 jobs:
-  # Single deploy job since we're just deploying
   deploy:
     environment:
       name: github-pages
@@ -32,13 +29,30 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
+      # 1. Set up the Flutter environment
+      - name: Set up Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          channel: 'stable'
+
+      # 2. Fetch project dependencies
+      - name: Install dependencies
+        run: flutter pub get
+
+      # 3. Build the Flutter web app with the correct base-href
+      - name: Build Flutter web
+        run: flutter build web --base-href "/FlutterFlow-Leetcode-Running-Sum-of-1D-Array/"
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Upload entire repository
+          # This will now successfully find the folder generated in Step 3
           path: 'build/web'
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4

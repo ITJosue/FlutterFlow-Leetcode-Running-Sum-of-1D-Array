@@ -1,6 +1,7 @@
 # Running Sum of 1D Array (Flutter & FlutterFlow)
 
 A cross-platform application built to visualize the **Prefix Sum** algorithm. Originally designed as a LeetCode problem solver, this project utilizes Flutter and FlutterFlow to provide a clean, interactive UI for calculating and displaying the cumulative running sum of a one-dimensional array.
+
 <img width="25%" height="25%" alt="1" src="https://github.com/user-attachments/assets/e4cb5eeb-79b9-4d8b-a9b2-dbfcdb965b8d" />
 <img width="25%" height="25%" alt="2" src="https://github.com/user-attachments/assets/66e57677-62eb-434c-afe3-88799046e644" />
 
